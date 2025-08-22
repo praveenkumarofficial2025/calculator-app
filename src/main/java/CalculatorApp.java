@@ -18,6 +18,9 @@ public class CalculatorApp {
             else if (calType.equals("*")) {
                 reult= Multiplication.cal(x,y);
             }
+            else if (calType.equals("%")) {
+                reult= MaodulsCalculatipn.cal(x,y);
+            }
 
             System.out.println("result="+reult);
 
